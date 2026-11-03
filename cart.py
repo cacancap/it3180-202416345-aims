@@ -1,5 +1,6 @@
 MAX_NUMBERS_ORDERED = 20
 
+#  Ca dep trai nhat tg
 
 class Cart:
     """Giỏ hàng chứa tối đa MAX_NUMBERS_ORDERED đĩa DVD."""
