@@ -1,0 +1,2 @@
+### Câu hỏi 1: Cấu hình --global được lưu ở đâu? Khác gì với --local?
+Trả lời: --global được lưu ở thư mục người dùng trên hệ điều hành (home directory), trong khi --local được lưu trong folder .git ngay tại repo đang làm việc.
