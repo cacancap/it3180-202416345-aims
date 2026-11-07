@@ -25,3 +25,35 @@ flowchart LR
 | In giỏ hàng | Yêu cầu xem nội dung giỏ. | In số thứ tự, tiêu đề, giá từng DVD và tổng tiền. Nếu giỏ trống, in `The cart is empty`. |
 
 `main.py` minh họa luồng thêm ba DVD rồi in giỏ. Các thao tác xóa và tìm kiếm được cung cấp qua các hàm Python.
+
+## Kiểm tra chức năng in giỏ hàng
+
+Chạy các lệnh dưới đây từ thư mục gốc của dự án.
+
+### Giỏ có DVD
+
+```bash
+python main.py
+```
+
+Sau các thông báo thêm DVD, chương trình in nội dung giỏ và tổng tiền.
+
+```text
+Cart contents:
+1. The Lion King - 19.95 $
+2. Star Wars - 24.95 $
+3. Aladdin - 18.99 $
+Total cost: 63.89 $
+```
+
+### Giỏ trống
+
+```bash
+python -c "from aims.cart import Cart; Cart().print_cart()"
+```
+
+Lệnh tạo một giỏ mới và gọi `print_cart()`. Kết quả mong đợi là dòng sau.
+
+```text
+The cart is empty
+```
