@@ -9,6 +9,12 @@
 - Sắp xếp DVD trong giỏ theo tiêu đề hoặc theo giá tăng dần.
 - Tìm DVD theo thể loại.
 
+## [1.0.1]
+
+### Fixed
+
+- Tìm DVD theo tiêu đề không phân biệt chữ hoa và chữ thường.
+
 ## [1.0.0]
 
 ### Added
