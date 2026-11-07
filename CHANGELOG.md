@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Sắp xếp DVD trong giỏ theo tiêu đề hoặc theo giá tăng dần.
+
 ## [1.0.0]
 
 ### Added
