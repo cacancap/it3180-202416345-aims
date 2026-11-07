@@ -2,9 +2,12 @@
 
 ## [Unreleased]
 
+## [1.1.0]
+
 ### Added
 
 - Sắp xếp DVD trong giỏ theo tiêu đề hoặc theo giá tăng dần.
+- Tìm DVD theo thể loại.
 
 ## [1.0.0]
 
