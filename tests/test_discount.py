@@ -18,3 +18,7 @@ class DiscountTest(unittest.TestCase):
     def test_rejects_percentage_above_100(self):
         with self.assertRaises(ValueError):
             self.cart.total_cost_with_discount(150)
+            
+    def test_rejects_negative_percentage(self):
+        with self.assertRaises(ValueError):
+            self.cart.total_cost_with_discount(-1)
