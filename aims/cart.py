@@ -1,7 +1,4 @@
 MAX_NUMBERS_ORDERED = 20
-
-#  Ca dep trai nhat tg
-
 class Cart:
     """Giỏ hàng chứa tối đa MAX_NUMBERS_ORDERED đĩa DVD."""
 
@@ -26,8 +23,12 @@ class Cart:
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
-        def print_cart(self):
-            print("Cart contents:")
-            for index, dvd in enumerate(self.items, start=1):
-                print(f"{index}. {dvd.title} - {dvd.cost:.2f} $")
-            print(f"Total cost: {self.total_cost():.2f} $")
+    
+    def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
+        print("Cart contents:")
+        for index, dvd in enumerate(self.items, start=1):
+            print(f"{index}. {dvd.title} - {dvd.cost:.2f} $")
+        print(f"Total cost: {self.total_cost():.2f} $")
